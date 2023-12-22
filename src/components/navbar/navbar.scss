@@ -1,0 +1,45 @@
+.navbar{
+    border:1px solid green;
+    // width:1216px;
+    // height:64px;
+    width:1152px;
+    height:40px;
+    padding: 12px 32px;
+
+    .container{
+        // border:1px solid black;
+        display: flex;
+        align-items: center;
+        gap:16px;
+        
+        .container_box1{
+           border:1px solid black;
+           height:28px;
+           width:360px;
+           display: flex;
+           align-items: center;
+          
+           .h5{
+                font-family: Galano Grotesque;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: 0em;
+                text-align: left;
+
+           }
+
+        }
+        .container_box2{
+           border:1px solid black;
+           height:40px;
+           width:400px;
+        }
+        .container_box3{
+           border:1px solid black;
+           height:40px;
+           width:360px;
+        }
+      
+    }
+}

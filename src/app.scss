@@ -1,0 +1,19 @@
+.app{
+    // border:1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container1{
+        border:1px solid black;
+        width:224px;
+       
+    }
+    .container2{
+        border:1px solid black;
+        display: flex;
+        flex-direction: column;
+        width:1216px;
+       
+    }
+}
