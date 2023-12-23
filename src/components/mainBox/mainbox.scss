@@ -1,0 +1,171 @@
+.mainbox{
+    // border:1px solid black;
+    display:flex;
+    justify-content: center;
+    padding: 32px;
+
+    .container{
+        // border:1px solid black;
+        width:1152px;
+        display:flex;
+        flex-direction: column;
+        gap:32px;
+
+      .top{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+
+          .mainbox_top{
+              display: flex;
+              justify-content: space-between;
+              
+              
+              .mainbox_top_text{
+                font-size: 20px;
+                 padding: 6px 0; 
+            }
+            .mainbox_top_button{
+                border: 1px solid #cccc;
+                height: 8px;
+                width:95px;
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+                padding: 14px 6px;
+                gap:2px;
+            }
+        }
+        // ------- //
+        .payouts{
+            display:grid ;
+            grid-template-columns: repeat(3,1fr);
+            gap:23px;
+
+            .payouts_container{
+                border:1px solid #cccc;
+                display: flex;
+                flex-direction: column;
+                gap:10px;
+                padding:20px;
+                
+                .next_payout{
+                    display: flex;
+                    gap:10px;
+                }
+                .payouts_price{
+                    font-size: 32px;
+                }
+                .payouts_text{
+                    font-size: 16px;
+                }
+            }
+        }
+        
+    }
+        // ----- //
+        .transactions{
+            font-size: 20px;
+            font-weight: 500;
+        }
+       // ----- //
+       .clickButton{
+           display: flex;
+           width: 241px;
+            height: 32px;
+            gap: 12px;
+
+
+           .btn_payouts{
+             width:max-content;
+             border:none;
+             padding:5px 10px;
+             background-color:silver;
+             color:rgb(23, 22, 22);
+             border-radius: 20px;
+           }
+           .btn_refunds{
+             width:max-content;
+             border:none;
+             padding:5px 10px;
+             color:white;
+             background-color:rgb(72, 72, 170);
+             border-radius: 20px;
+           }
+       }
+
+      // ---------- //
+      .table{
+        display:flex;
+        flex-direction: column;
+        gap:14px;
+        padding: 12px;
+
+        .table_fun{
+            display:flex;
+            justify-content: space-between;
+
+            .table_search{
+                border:1px solid #cccc;
+                display: flex;
+                align-items: center;
+                padding: 0 10px;
+                .search_logo{
+
+                }
+                input{
+                    border:none;
+                    padding:5px;
+                    color:#464242cc;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+            }
+
+            .table_sort{
+                display: flex;
+                align-items: center;
+                gap:5px;
+            }
+            .sort{
+                padding: 6px 12px;
+            }
+          }
+
+        //   ----------  //
+       
+            
+           
+
+            table {
+                border: 1px solid black;
+                width: 100%;
+                border-collapse: separate;
+          
+                tr{
+                   display: grid;
+                   grid-template-columns: repeat(5,1fr);
+                   grid-column-gap: 85.33px;
+                   padding:10px 12px;
+                   &:first-child {
+                       background-color: #f2f2f2;
+                    }
+    
+                    td{
+                        // border: 1px solid black;
+                        text-align: left;
+                        width: 150px;
+                        font-size: 16px;
+                        color:rgb(77, 75, 75);
+                            &:last-child {
+                                text-align: right;
+                                }
+                   }
+                }
+              }
+          }
+        
+
+    }
+}

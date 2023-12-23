@@ -1,5 +1,119 @@
-.sidebar{
-    // border:1px solid red;
-    width:224px;
-    height: 882px;
+.sidebar {
+  // border:1px solid red;
+  background-color: #1e2640;
+  color: white;
+  // width:224px;
+  // height: 882px;
+  width: 204px;
+  height: 850px;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+
+  .side_container1 {
+    display: flex;
+    flex-direction: column;
+    height:764px;
+    gap: 24px;
+
+    .side_top {
+      // border:1px solid white;
+      height: 42px;
+      width: 192px;
+      margin: 0 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .side_top_left {
+        display: flex;
+        gap: 12px;
+
+        .side_svg_img {
+          height: 39px;
+          width: 39px;
+          border-radius: 6px;
+        }
+        .side_top_text {
+          display: flex;
+          align-items: left;
+          flex-direction: column;
+          gap: 4px;
+
+          .side_top_text1 {
+            font-size: 15px;
+            font-weight: 500;
+          }
+          .side_top_text2 {
+            font-size: 13px;
+            color: #858282;
+          }
+        }
+      }
+
+      .side_svg {
+        color: white;
+      }
+    }
+
+    .side_bottom {
+      display: flex;
+      flex-direction: column;
+      width: 208px;
+      height: 36;
+
+      .side_logo {
+        // border:1px solid black;
+        padding: 8px 16px;
+
+        .side_menu {
+          display: flex;
+          align-items: center;
+          padding: 3px 0;
+          gap: 10px;
+
+          .side_svg {
+            height: 18px;
+            width: 18px;
+          }
+          .side_menu_text {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .side_container2 {
+    // border: 1px solid red;
+    display: flex;
+    width: 192px;
+    height: 54px;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 4px;
+    gap: 10px;
+
+    .side_svg {
+      height: 36px;
+      width: 36px;
+    }
+    .side_container2_bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      .side_container2_bottom_text {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: left;
+        color:#cccc;
+      }
+      .side_container2_bottom_number {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+      }
+    }
+  }
 }

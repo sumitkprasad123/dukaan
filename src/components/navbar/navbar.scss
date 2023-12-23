@@ -1,5 +1,5 @@
 .navbar{
-    border:1px solid green;
+    border-bottom: 1px solid #D9D9D9;
     // width:1216px;
     // height:64px;
     width:1152px;
@@ -12,33 +12,114 @@
         align-items: center;
         gap:16px;
         
+        // container_box1
         .container_box1{
-           border:1px solid black;
+        //    border:1px solid black;
            height:28px;
            width:360px;
            display: flex;
            align-items: center;
-          
-           .h5{
+           gap:16px;
+
+           .payouts{
                 font-family: Galano Grotesque;
-                font-size: 20px;
+                font-size: 28px;
                 font-weight: 500;
                 line-height: 28px;
                 letter-spacing: 0em;
                 text-align: left;
+           }
+           .icone_help_box{
+                 display: flex;
+                 align-items: center;
+                 gap:6px;
+                 padding: 7px 0;
 
+                .icone_help{
+                    height:14px;
+                    width:14px;
+                    color: #4D4D4D;
+
+                }
+
+                .icone_help_text{
+                    size:12px;
+                    font-weight: 400;
+                    line-height: 16px;
+                }
            }
 
         }
+
+
+         // container_box2
         .container_box2{
-           border:1px solid black;
-           height:40px;
-           width:400px;
+        //    border:1px solid black;
+           height:22px;
+           width:368px;
+           padding: 9px 16px;
+           display: flex;
+           align-items: center;
+           background-color: #D9D9D9;
+           border-radius: 6px;
+
+           .search{
+             display: flex;
+             align-items: center;
+             gap:8px;
+
+             .icone_search{
+                height: 16px;
+                width:16px;
+             }
+             input{
+                border: none;
+                color: #808080;
+                background-color: #D9D9D9;
+                font-family: Galano Grotesque;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; 
+                &:focus{
+                    outline: none;
+                }
+             }
+
+           }
         }
+
+         // container_box2
         .container_box3{
-           border:1px solid black;
+        //    border:1px solid black;
            height:40px;
            width:360px;
+           display: flex;
+           justify-content: end;
+
+           .svg{
+              display: flex;
+              gap:12px;
+
+            .svg_box{
+                width:40px;
+                height:40px;
+                border-radius: 50%;
+                background-color: #E6E6E6 ;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .svg1{
+                   height:20px;
+                   width:20px;
+                }
+                .svg2{
+                  height: 12.73px;
+                  width: 20px;  
+                }
+            }  
+           }
         }
       
     }

@@ -11,7 +11,7 @@ function App() {
         </div>
         <div className="container2">
             <Navbar/>
-            {/* <MainBox/> */}
+            <MainBox/>
         </div>
     </div>
   );
