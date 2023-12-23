@@ -18,7 +18,7 @@ const MainBox = () => {
             <div className="mainbox_top">
                <span className='mainbox_top_text'>Overview</span>
                <div className="mainbox_top_button">
-                 <span>This Month</span>
+                 <span className='thismonth'>This Month</span>
                  <MySVG1 className='mainbox_top_drop_icon' />
                </div>
             </div>
@@ -30,8 +30,8 @@ const MainBox = () => {
                        <MySVG2 />
                     </div>
                     <span className='payouts_price'>₹92,312.20</span>
-                    <span className='payouts_text'>Next payout date Today, 04:00PM</span>
-                    <a  className='payouts_text' href="#">view 13 orders</a>
+                    <span className='payouts_text1'>Next payout date Today, 04:00PM</span>
+                    <a  className='payouts_text2' href="#">view 13 orders</a>
                  </div>
 
                  <div className="payouts_container">
@@ -39,9 +39,9 @@ const MainBox = () => {
                        <span>Next Payout</span>
                        <MySVG2 />
                     </div>
-                    <span className='payouts_price'>$92,312.20</span>
-                    <span className='payouts_text'>Next payout date Today, 04:00PM</span>
-                    <a  className='payouts_text' href="#">view 13 orders</a>
+                    <span className='payouts_price'>₹92,312.20</span>
+                    <span className='payouts_text1'>Next payout date Today, 04:00PM</span>
+                    <a  className='payouts_text2' href="#">view 13 orders</a>
                  </div>
 
                  <div className="payouts_container">
@@ -49,9 +49,9 @@ const MainBox = () => {
                        <span>Next Payout</span>
                        <MySVG2 />
                     </div>
-                    <span className='payouts_price'>$92,312.20</span>
-                    <span className='payouts_text'>Next payout date Today, 04:00PM</span>
-                    <a  className='payouts_text' href="#">view 13 orders</a>
+                    <span className='payouts_price'>₹92,312.20</span>
+                    <span className='payouts_text1'>Next payout date Today, 04:00PM</span>
+                    <a  className='payouts_text2' href="#">view 13 orders</a>
                  </div>
             </div>
           </div>
